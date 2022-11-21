@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{feb15b26-d88a-44d4-b7ba-b4a53be46a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rage">
+      <UniqueIdentifier>{8e9f2be6-4b10-4963-be15-0fe507984803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rage\types">
+      <UniqueIdentifier>{c1d54a82-0cee-4e6f-b7d0-96f71bd962fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rage\invoker">
+      <UniqueIdentifier>{2df982bb-9728-409b-a4ab-8b0057ec14c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{5072da58-5136-41bd-8d09-e89e2e1f3a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\xml">
+      <UniqueIdentifier>{da21bd1e-47ed-4d1a-80f5-b04526d28167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\wic">
+      <UniqueIdentifier>{d43c9b41-105e-460b-a348-8308f738eba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\memory">
+      <UniqueIdentifier>{130901aa-440d-4d3f-8856-bfd8c2bae5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\hooking">
+      <UniqueIdentifier>{b795f6ee-c064-4896-9854-6cf4ba068725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="global">
+      <UniqueIdentifier>{662c1239-37d2-418a-a0ee-307c70c71f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{8752ede9-6cab-40ba-8a88-1a0922b0b28a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\util">
+      <UniqueIdentifier>{1b6fb922-ffcd-4b5f-9867-6762b0de5faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\subs">
+      <UniqueIdentifier>{9c11672a-c806-4d00-a34b-4e2d9ddc9038}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="rage\engine.cpp">
+      <Filter>rage</Filter>
+    </ClCompile>
+    <ClCompile Include="rage\types\generic_types.cpp">
+      <Filter>rage\types</Filter>
+    </ClCompile>
+    <ClCompile Include="rage\types\invoker_types.cpp">
+      <Filter>rage\types</Filter>
+    </ClCompile>
+    <ClCompile Include="rage\types\network_types.cpp">
+      <Filter>rage\types</Filter>
+    </ClCompile>
+    <ClCompile Include="rage\types\base_types.cpp">
+      <Filter>rage\types</Filter>
+    </ClCompile>
+    <ClCompile Include="rage\types\bit_buffer.cpp">
+      <Filter>rage\types</Filter>
+    </ClCompile>
+    <ClCompile Include="rage\invoker\invoker.cpp">
+      <Filter>rage\invoker</Filter>
+    </ClCompile>
+    <ClCompile Include="util\util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\va.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\wmi.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\config.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\dirs.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\fiber.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\fiber_pool.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\localization.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\log.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\threads.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\xml\pugixml.cpp">
+      <Filter>util\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="util\wic\wic_texture_loader.cpp">
+      <Filter>util\wic</Filter>
+    </ClCompile>
+    <ClCompile Include="util\memory\memory.cpp">
+      <Filter>util\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="util\hooking\hooking.cpp">
+      <Filter>util\hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="global\vars.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="rage\engine.h">
+      <Filter>rage</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\types\bit_buffer.h">
+      <Filter>rage\types</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\types\generic_types.h">
+      <Filter>rage\types</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\types\global_types.h">
+      <Filter>rage\types</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\types\invoker_types.h">
+      <Filter>rage\types</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\types\network_types.h">
+      <Filter>rage\types</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\types\script_types.h">
+      <Filter>rage\types</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\types\base_types.h">
+      <Filter>rage\types</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\invoker\invoker.h">
+      <Filter>rage\invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="rage\invoker\natives.h">
+      <Filter>rage\invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="util\util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\va.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\wmi.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\caller.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\config.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\dirs.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\fiber.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\fiber_pool.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\json.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\localization.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\log.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\math.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\threads.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\xml\pugixml.h">
+      <Filter>util\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="util\xml\pugiconfig.h">
+      <Filter>util\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="util\wic\wic_texture_loader.h">
+      <Filter>util\wic</Filter>
+    </ClInclude>
+    <ClInclude Include="util\memory\memory.h">
+      <Filter>util\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="util\hooking\hooking.h">
+      <Filter>util\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="util\hooking\minhook.h">
+      <Filter>util\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="global\vars.h">
+      <Filter>global</Filter>
+    </ClInclude>
+    <ClInclude Include="siggy.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="design.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="vars.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="handler.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="main_menu.h">
+      <Filter>base\subs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
